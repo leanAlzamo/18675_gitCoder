@@ -1,0 +1,86 @@
+body {
+    width: 100%;
+    max-width: 100vw;
+    margin: 1 auto;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    }
+
+/*Header*/
+    header{
+        height: 31vh;
+
+    }
+
+/* Titulos*/
+h1{
+    font-family: 'Big Shoulders Stencil Display', cursive; 
+    font-size: 5rem;
+    color: rgb(43, 83, 3);
+    margin-left: 0px;
+}
+
+/* LISTAS*/
+li{
+    list-style: none;
+}
+
+/* ENLACES*/
+a:hover {
+    color: darkred;
+    background-color: lightskyblue;
+}
+a{
+    text-decoration: none;
+    padding: 2px 1px 0;
+}
+
+/*MENU*/
+
+.menu{
+    display: inline;
+    text-align: center;
+    font-family: 'Big Shoulders Stencil Display', cursive;
+    font-size: 2rem;
+    letter-spacing: 0.2rem;
+    word-spacing: 0.1rem;
+}
+
+.menu ul li{
+    
+    display: inline-block;
+    position: relative;
+    text-align: center;
+}
+
+ul ul{
+    
+    position: absolute;
+    display: none;
+}
+
+ul ul li{
+    
+    display: block;
+}
+
+.menu ul li a{
+    
+    display: block;
+    text-decoration: none;
+    color: black;
+}
+
+ul li:hover ul{
+    display: block;
+}
+
+.menu ul li a:hover{
+    background-color: rgb(23, 240, 15);
+}
+
+li:hover{
+    background-color: darkgreen;
+}
